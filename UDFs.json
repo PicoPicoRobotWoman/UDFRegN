@@ -1,0 +1,23 @@
+[
+  {
+    "name": "blue",
+    "targetType": "String",
+    "fun": "() => \"00ff00\""
+  },
+  {
+    "name": "reverse",
+    "targetType": "String",
+    "fun": "(str:String) => str.reverse"
+  },
+  {
+    "name": "plus",
+    "targetType": "Int",
+    "fun": "(i1:Int, i2:Int) => i1 + i2"
+  },
+  {
+    "name": "sum3",
+    "types": "Int,Int,Int",
+    "targetType": "Int",
+    "fun": "(i1:Int, i2:Int, i3:Int) => i1 + i2 + i3"
+  }
+]
